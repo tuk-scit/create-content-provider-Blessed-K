@@ -23,6 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:authorities="com.example.assignment"
+            android:name="com.example.assignment.entities.MyContentProvider"
+            android:exported="true"
+            android:readPermission="@string/app_name"
+            android:writePermission="@string/app_name">
+
+        </provider>
     </application>
 
 </manifest>

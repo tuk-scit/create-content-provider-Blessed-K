@@ -1,4 +1,4 @@
-package entities
+package com.example.assignment.entities
 
 import android.content.ContentProvider
 import android.content.ContentValues
